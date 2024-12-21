@@ -229,3 +229,25 @@ h2{
 .scroll-to-top:focus {
   outline: none;
 }
+
+/* En App.css o archivo CSS global */
+button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+button.loading {
+  background-color: blue;
+  color: white;
+}
+
+button.success {
+  background-color: green;
+  color: white;
+}
+
+button.error {
+  background-color: red;
+  color: white;
+}
+
