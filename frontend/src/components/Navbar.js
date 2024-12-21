@@ -13,9 +13,12 @@ const Navbar = () => {
 
         {isAuthenticated && role === 'Administrador' && (
           <>
-            <li><Link to="/admin"><FaListAlt /> Recursos</Link></li>
-            <li><Link to="/admin/orders"><FaBox /> Pedidos</Link></li>
-            <li><Link to="/admin/reports"><FaChartPie /> Reportes</Link></li>
+            <li><Link to="/admin/products">Productos</Link></li>
+            <li><Link to="/admin/users">Usuarios</Link></li>
+            <li><Link to="/admin/tables">Mesas</Link></li>
+            <li><Link to="/admin/orders">Pedidos</Link></li>
+            <li><Link to="/admin/reports">Reportes</Link></li>
+
           </>
         )}
 
